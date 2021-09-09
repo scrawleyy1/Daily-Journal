@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sydney's Daily Journal</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="./styles/main.css">
 <header>
     <h1>Syd's Journal</h1>
 </header>
@@ -18,25 +18,32 @@
 <main>
     <form action="">
         <fieldset>
-            <label for="journalDate">Date of entry</label>
+            <div class="taco">
+                <label for="journalDate">Date of entry</label>
                 <input type="date" name="journalDate" id="journalDate">
+            </div>
         </fieldset>
-    </form>
-    <form>
+
+    
         <fieldset>
-            <label for="conceptsCovered">Concepts Covered</label>
+            <div class="taco">
+                <label for="conceptsCovered">Concepts Covered</label>
                 <input type="text">
+            </div>
         </fieldset>
-    </form>
-    <form>
+
+    
         <fieldset>
-            <label for="journalEntry">Journal Entry</label>
+            <div class="taco">
+                <label for="journalEntry">Journal Entry</label>
                 <input type="text">
+            </div>
         </fieldset>
-    </form>
-    <form>
+   
+    
         <fieldset>
-            <label for="moodOfTheDay">Mood of the day</label>
+            <div class="taco">
+                <label for="moodOfTheDay">Mood of the day</label>
                 <select id="moodOfTheDay">
                     <option value="happy">Happy</option>
                     <option value="sad">Sad</option>
@@ -44,9 +51,14 @@
                     <option value="optimistic">Optimistic</option>
                     <option value="sleepy">Sleepy</option>
                 </select>
+            </div>
         </fieldset>
+
         <button class="entryButton">Post to Journal</button>
+
     </form>
+ 
+
 </main>
 
     <footer>&COPY; 2021</footer>
